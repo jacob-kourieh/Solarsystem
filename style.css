@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+    font-family: cursive;
+   
+}
+
+body {
+    margin: 0;
+    background-image: url('./imgs/3d-space-background-with-planet-earth-eclipse-elements-this-image-furnished.jpg');
+    background-size: 50em;
+    background-position: top;
+    background-color: black;
+    background-repeat: no-repeat;  
+}
+
+.title {
+    position: relative;
+    color: #68614e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 12em;
+    font-size: xx-large;
+}
+.images {
+    position: relative;
+    bottom: 6em;
+    display: flex;
+    justify-content: space-between;     
+}
+
+.title h1 {
+    margin: 4px;
+    text-shadow: 5px -4px 20px #645a41;   
+}
+
+.title p {
+    margin: 0;
+    font: caption;
+}
+
+
+.planets-imgs:hover,
+.planets-imgs:focus { 
+        transition: .1s;
+        transform: scale(1.15);   
+}
+
+.planets-imgs {
+    width: 160px;
+    height: 160px;
+    margin: 24px;
+    display: flex;
+    cursor: pointer;
+}
+
+
+#search-input {
+    color: white;
+    width: 70%;
+    height: 61px;
+    box-shadow: 0px 0px 11px 1px;
+    border-radius: 14px;
+    border: none;
+    background-color: #211f1794;;
+    padding: 5px 10px;
+    font-size: 16px;
+    position: relative;
+    bottom: 30em;
+    left: 15em;   
+}
+
+#planets-list{
+    color: white;
+}
+
+
+
+
+
+
