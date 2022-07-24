@@ -2,9 +2,9 @@ let clickedData = JSON.parse(window.localStorage.getItem("clicked"));
 
 console.log(clickedData);
 
-let nam = clickedData.name;
+let imageTitle = clickedData.name;
 
-document.querySelector(".image").setAttribute('src', `/imgs/${nam}.jpg`);
+document.querySelector(".image").setAttribute('src', `../imgs/${imageTitle}.jpg`);
 document.querySelector(".planet-name").innerText = clickedData.name;
 document.querySelector(".type").innerText = clickedData.type;
 document.querySelector(".planet-desc").innerText = clickedData.desc;
