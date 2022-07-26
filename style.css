@@ -74,8 +74,17 @@ body {
     color: white;
 }
 
+@media (max-width: 500px) {
+    .images {
+        position: relative;
+        top: 35em;
+}
+#search-input {
+    width: 100%;
+    position: relative;
+    bottom: 30em;
+    left: 0em; 
+}
 
-
-
-
+}
 

@@ -75,3 +75,19 @@ color: blanchedalmond;
 .type {
     margin-top: 0;
 }
+
+
+
+@media (max-width: 500px) {
+    .container {
+        display: flex;
+        /* margin: 115px; */
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .container-txt {
+        width: 241%;
+    }
+
+}
